@@ -1,0 +1,63 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+/** Sidebar Column **/
+
+.col-xs-2 {}
+
+.sidebar a {
+  color: black;
+  text-decoration: none;
+}
+
+.sidebar {
+  background-color: lavenderblush;
+}
+
+.sidebarItem {
+  text-align: left;
+  list-style-type: none;
+  display: block;
+}
+
+.sidebarItem:hover {
+  -moz-box-shadow: 0px 0px 5px #8D538D;
+  -webkit-box-shadow: 0px 0px 5px #8D538D;
+  box-shadow: 0px 0px 5px #8D538D;
+}
+
+.sidebarItem {
+  display: block;
+}
+/** SideBar Column END **/
+/*** Resume Column **/
+
+.col-xs-10 {}
+
+.contact {
+  text-align: center;
+}
+
+hr {
+  border-color: black;
+  border-width: 1.5px;
+}
+
+.table {
+  margin: 0 1.5%;
+  height: 150px;
+  width: 97%;
+}
+
+.tableRHS {
+  text-align: right;
+}
+
+.rhs {
+  float: right;
+}
+
+.techSummary {
+  list-style-type: none;
+}
+/*** Resume Column END **/
